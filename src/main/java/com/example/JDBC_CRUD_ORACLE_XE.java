@@ -47,33 +47,5 @@ public class JDBC_CRUD_ORACLE_XE {
             throw new RuntimeException(e);
         }
 
-//        // 1) چک وجود رکورد با USERNAME یا EMAIL
-//        String checkSql = "SELECT ID, USER_NAME, EMAIL, REGISTRATION_DATE "
-//                + "FROM USERS WHERE USER_NAME = ? OR EMAIL = ?";
-//
-//        // 2) INSERT در صورت نبود رکورد
-//        String insertSql = "INSERT INTO USERS (ID, NAME,FAMILY,USER_NAME, PASS_WORD, EMAIL, REGISTRATION_DATE) "
-//                + "VALUES (seq_users.nextval, ?, ?, ?, ?, ?,?)";
-//
-//        try (Connection connection = DriverManager.getConnection(url, username, password);
-//             // برای درج
-//             PreparedStatement insertStmt = connection.prepareStatement(insertSql)) {
-//
-//            // رکورد وجود ندارد، اقدام به INSERT
-//            // Bind parameters for INSERT
-//            insertStmt.setString(1, user_name);
-//            insertStmt.setString(2, user_family);
-//            insertStmt.setString(3, user_username);
-//            insertStmt.setString(4, user_password);
-//            insertStmt.setString(5, user_email);
-//            insertStmt.setTimestamp(6, user_registrationDate);
-//            insertStmt.setTimestamp(5, user_lastLoginDate);
-//
-//            int rows = insertStmt.executeUpdate();
-//            System.out.println("Inserted rows: " + rows);
-//
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
     }
 }
