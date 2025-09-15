@@ -9,9 +9,9 @@ public class JDBC_CRUD_CLASSIC_ORACLE_XE {
     public static void main(String[] args) throws Exception{
 
         long id = 44;
-        String name = "Davoud";
+        String name = "David";
         String family = "Keramati";
-        String userName = "davoudkeramati";
+        String userName = "davidkeramati";
         String passWord = "hjhtjhtjhtjthj";
         String email = "davoud.keramati@gmail.com";
         Date registrationDate = new Date();
