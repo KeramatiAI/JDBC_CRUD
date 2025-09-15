@@ -13,7 +13,7 @@ public class JDBC_CRUD_CLASSIC_ORACLE_XE {
         String family = "Keramati";
         String userName = "davidkeramati";
         String passWord = "hjhtjhtjhtjthj";
-        String email = "davoud.keramati@gmail.com";
+        String email = "david.keramati@gmail.com";
         Date registrationDate = new Date();
 
         User user1 = new User(id,name,family,userName,passWord,email,registrationDate);
